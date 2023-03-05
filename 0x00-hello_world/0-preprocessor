@@ -1,3 +1,2 @@
 #!/bin/bash
-$CFILE="0x00.c"
-gcc -E $CFILE > c.o
+$CFILE="main.c" gcc -E $CFILE > c.o
